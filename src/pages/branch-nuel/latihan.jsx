@@ -1,7 +1,9 @@
 const Latihan = () => {
-  return ( 
-    <h1>Branch Nuel</h1>
-   );
+  return (
+    <div>
+      <h1>Branch Nuel</h1>
+    </div>
+  );
 }
  
 export default Latihan;
