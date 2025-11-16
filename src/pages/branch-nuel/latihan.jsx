@@ -1,6 +1,6 @@
 const Latihan = () => {
   return ( 
-    <h1>Branch Zainul</h1>
+    <h1>Branch Nuel</h1>
    );
 }
  
