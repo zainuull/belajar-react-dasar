@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 
 
+ 
+
 const Navbar = () => {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
