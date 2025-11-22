@@ -6,6 +6,9 @@ const Latihan = () => {
       <p>baru</p>
       <p>baru</p>
       <p>baru</p>
+      <p>baru</p>
+      <p>baru</p>
+      <p>baru</p>
     </div>
   );
 }
