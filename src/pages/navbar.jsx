@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+
+
+ 
+
 const Navbar = () => {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -9,6 +13,7 @@ const Navbar = () => {
       <Link to={"/example"}>Example</Link>
       <Link to={"/artikel"}>Artikel</Link>
       <Link to={"/keranjang"}>keranjang</Link>
+      <Link to={"/product"}>Product</Link>
     </div>
   );
 };
