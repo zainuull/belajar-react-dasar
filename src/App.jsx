@@ -9,6 +9,7 @@ import Home from "./pages/home";
 import Detail from "./pages/about/detail";
 import Example from "./pages/example";
 import ArticleViewer from "./pages/artikel";
+import Keranjang from "./pages/keranjang";
 
 // import About from "./pages/about";
 // import Contact from "./pages/contact";
@@ -64,6 +65,14 @@ function App() {
           element={
             <SuspenseWrapper>
               <ArticleViewer />
+            </SuspenseWrapper>
+          }
+        />
+        <Route
+          path="/keranjang"
+          element={
+            <SuspenseWrapper>
+              <Keranjang />
             </SuspenseWrapper>
           }
         />
