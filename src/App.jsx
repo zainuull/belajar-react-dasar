@@ -14,6 +14,7 @@ import ArticleViewer from "./pages/artikel";
 // import Contact from "./pages/contact";
 const Contact = lazy(() => import("./pages/contact"));
 const About = lazy(() => import("./pages/about"));
+const PaymentGateway = lazy(() => import('./pages/payment.gateway/payment.gateway'));
 
 function App() {
   return (
@@ -64,6 +65,14 @@ function App() {
           element={
             <SuspenseWrapper>
               <ArticleViewer />
+            </SuspenseWrapper>
+          }
+        />
+        <Route
+          path="/payment"
+          element={
+            <SuspenseWrapper>
+              <PaymentGateway />
             </SuspenseWrapper>
           }
         />
